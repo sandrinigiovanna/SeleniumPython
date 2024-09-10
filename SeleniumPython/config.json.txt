@@ -1,0 +1,29 @@
+{
+  "Comum": {
+    "Ambiente": "Producao",
+    "NomeRobo": "nome_robo",
+    "DiretorioParaRelatorioFinal": "c:\\relatorios",
+    "HoraEncerramento_24H": ""
+  },
+  "Email": {
+    "To": "seu_email",
+    "CC": "",
+    "BCC": "",
+    "Sistemas": "seu_email"
+  },
+  "Repositorio": {
+    "Diretorio": "\\\\seu_repositorio"
+  },
+  "OCR": {
+    "UtilizarAzureOCR": "1",
+    "IronOCR_LicenceKey": "sua_licença",
+    "Azure_Key": "sua_chave",
+    "Azure_Endpoint": "seu_endpoint"
+  },
+  "Robos": [
+    {
+      "key": "robo_raspagem_dados_clima",
+      "value": "SeleniumPython.Robos.RaspagemDados.RoboRaspagemDadosClima"
+    }
+  ]
+}
